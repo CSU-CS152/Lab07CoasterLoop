@@ -20,7 +20,7 @@ Jimmy’s Tower of Fun and Not Scares is a rollercoaster whose line passes under
 
   Ex: 
   ```python
-  print("TESTING", lineSplash(5)) # should return [“splashed”, 1, 2, “splashed!”, 4]
+  print("TESTING", lineSplash(5)) # should return [“splashed!”, 1, 2, “splashed!”, 4]
 ```
 # Step 3: Connie the Carnival Animatronic’s Special Countdown! — connieCountdown(num)
 Connie the Carnival Animatronic is an animatronic in charge of some of the roller coaster rides and games. When in charge of rollercoasters, they do a special countdown. Connie picks a number and then counts down from that number to 1, and then says “Happy New Years!” For this function, find the function called `connieCountdown(num)`. Use a for-loop to make a list from num-1 and then add “Happy New Years!” to the end. Return this list.
