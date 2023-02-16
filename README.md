@@ -16,11 +16,11 @@ As at many theme parks, the rollercoasters at Clappy’s Carnival of Fun have li
    print("TESTING", lineManage(5)) # should return [0, 1, 2, 3, 4, “now that’s a line!”] 
 ```
 # Step 2: Line Management, the Sequel, Now With More Water! — lineSplash(customers)
-Jimmy’s Tower of Fun and Not Scares is a rollercoaster whose line passes under Splashy Splashington’s Splash-a-Palooza. Because of this, there is a chance that some of the guests will get splashed when they walk under it. For this function, find the function called `lineSplash(customers)`, use a for-loop to fill a list with numbers from 0-customers. If the number is divisible by 3, add “splashed!” to the list instead of the number. Return the list.
+Jimmy’s Tower of Fun and Not Scares is a rollercoaster whose line passes under Splashy Splashington’s Splash-a-Palooza. Because of this, there is a chance that some of the guests will get splashed when they walk under it. For this function, find the function called `lineSplash(customers)`, use a for-loop to fill a list with numbers from 0 to (customers-1). If the number is divisible by 3, add “splashed!” to the list instead of the number. Return the list.
 
   Ex: 
   ```python
-  print("TESTING", lineSplash(5)) # should return [“splashed”, 1, 2, “splashed!”, 4]
+  print("TESTING", lineSplash(5)) # should return [“splashed!”, 1, 2, “splashed!”, 4]
 ```
 # Step 3: Connie the Carnival Animatronic’s Special Countdown! — connieCountdown(num)
 Connie the Carnival Animatronic is an animatronic in charge of some of the roller coaster rides and games. When in charge of rollercoasters, they do a special countdown. Connie picks a number and then counts down from that number to 1, and then says “Happy New Years!” For this function, find the function called `connieCountdown(num)`. Use a for-loop to make a list from num-1 and then add “Happy New Years!” to the end. Return this list.
