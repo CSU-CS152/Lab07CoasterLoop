@@ -43,9 +43,7 @@ The Ring Toss Spectacular is a rather interesting attraction at Clappy’s. To w
   Ex: 
   ```python
   print("TESTING", ringToss([10, 3, 5, 7, 20, 19], [19, 3, 18, 12, 15, 1])) 
-  # should print:
-  # “Success for 3”
-  # “Success for 19”
+  # should return: [“Success for 3”, “Success for 19”]
 ```
 
 # Step 5: Happy Clappy’s Family Diner Birthday Dosido Spectacular! — dinerDance(start, numMoves)
